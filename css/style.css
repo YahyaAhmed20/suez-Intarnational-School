@@ -1,0 +1,438 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+form,
+table {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+/* Global Styles */
+body {
+  background-color: #f8f8f8;
+  color: #333;
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+  background-color: #4285f4;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.logo h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.2em;
+  transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: #ffd700;
+}
+
+/* Home Section Styles */
+.home-section {
+  background-color: #fff;
+  padding: 40px 0;
+  text-align: center;
+
+}
+
+.about-info img {
+  max-width: 100%;
+  /* Make images responsive and fit their containers */
+  height: auto;
+}
+
+/* Display three images side by side */
+.img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img img {
+  width: 30%;
+  /* Adjust the width of the images as needed */
+  margin: 0;
+}
+
+/* ... (remaining styles) */
+
+.about-info h2 {
+  color: #4285f4;
+}
+
+.about-info p {
+  color: #666;
+}
+
+.members {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.members img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.span-text {
+  color: #4285f4;
+}
+
+/* About Section Styles */
+.about-section {
+  background-color: #f8f8f8;
+  padding: 40px 0;
+  text-align: center;
+}
+
+/* Curriculum Section Styles */
+#curriculum {
+  background-color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+#curriculum h2 {
+  color: #4285f4;
+}
+
+#curriculum p {
+  color: #666;
+}
+
+#curriculum ul {
+  list-style: none;
+  margin-top: 20px;
+}
+
+#curriculum li {
+  color: #4285f4;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Announcements Section Styles */
+#announcements {
+  background-color: #f8f8f8;
+  padding: 40px 0;
+  text-align: center;
+}
+
+#announcements h2 {
+  color: #4285f4;
+}
+
+#announcements p {
+  color: #666;
+}
+
+/* News Section Styles */
+#news {
+  background-color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+#news h2 {
+  color: #4285f4;
+}
+
+#news p {
+  color: #666;
+}
+
+/* Academic Section Styles */
+.academic-section {
+  background-color: #f8f8f8;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.education-levels {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.education-level {
+  width: 200px;
+  margin: 20px 0;
+}
+
+.education-level h3 {
+  color: #4285f4;
+}
+
+.education-level p {
+  color: #666;
+}
+
+/* Payments Section Styles */
+.payments-section {
+  background-color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.payments-section h2 {
+  color: #4285f4;
+}
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #4285f4;
+  color: #fff;
+}
+
+/* Payment Calendar Section Styles */
+#payment-calendar {
+  background-color: #f8f8f8;
+  padding: 40px 0;
+  text-align: center;
+}
+
+#payment-calendar h2 {
+  color: #4285f4;
+}
+
+/* Registration Section Styles */
+.registration-section {
+  background-color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.registration-section h2 {
+  color: #4285f4;
+}
+
+form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #4285f4;
+  font-weight: bold;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #4285f4;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #ffd700;
+}
+
+/* Contact Section Styles */
+.Contact-section {
+  background-color: #f8f8f8;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.Contact-us h2 {
+  color: #4285f4;
+}
+
+.Contact-us p {
+  color: #666;
+}
+
+.Contact-us ul {
+  list-style: none;
+}
+
+.Contact-us li {
+  margin-bottom: 10px;
+}
+
+/* Google Map Styles */
+.google-map {
+  margin-top: 20px;
+}
+
+/* Send Message Section Styles */
+.send-message {
+  margin-top: 20px;
+}
+
+.send-message h3 {
+  color: #4285f4;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-col {
+  width: 45%;
+}
+
+.footer h4 {
+  color: #ffd700;
+  margin-bottom: 10px;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer a:hover {
+  color: #ffd700;
+}
+
+/* Social Links Styles */
+.social-links {
+  margin-top: 10px;
+}
+
+.social-links a {
+  margin-right: 10px;
+  font-size: 1.5em;
+  color: #fff;
+  transition: color 0.3s ease-in-out;
+}
+
+.social-links a:hover {
+  color: #ffd700;
+}
+
+/* Creator Section Styles */
+.creator {
+  text-align: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.creator span {
+  color: #4285f4;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+  form {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  form {
+    width: 100%;
+  }
+}
